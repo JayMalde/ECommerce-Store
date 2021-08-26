@@ -7,6 +7,9 @@ A simple web application created using Spring MVC Hibernate Maven that performs 
 ## Home Page for User
 ![Home Page for User](SS/home_page_user.png)
 
+## Category Dropdown
+![Category Dropdown](SS/category_dropdown.png)
+
 ## Home Page for Admin
 ![Home Page](SS/home_page.png)
 
@@ -14,4 +17,4 @@ A simple web application created using Spring MVC Hibernate Maven that performs 
 ![Admin Dashboard](SS/admin_page.png)
 
 ## Add Product Page
-![Add Product Page](SS/product_page.png)
+![Add Product Page](SS/add_product.png)
