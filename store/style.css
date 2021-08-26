@@ -1,0 +1,188 @@
+*{font-family: sans-serif;}
+body{
+  margin: 0;
+  padding: 0;
+}
+/*Navigation Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #666;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #666;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Products Card*/
+.card {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 38px;
+  text-align: center;
+  border-radius: 5px;
+}
+.button 
+{
+  margin-top: 20px;
+  margin-left: 40%;
+  width: 20%;
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+}
+.cart-button 
+{
+  width: 30%;
+  background-color: #0275d8;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+}
+.price {
+  color: #444; 
+  font-size: 30px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+/*Cart Popup*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+/*Cart, Orders Table*/
+.styled-table {
+  border-collapse: collapse;
+  margin-left: 10%;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #666;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #666;
+}
+.styled-table tbody tr:hover {
+  color: #009879  ;
+}
+.container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;          
+  letter-spacing: 1.2px;
+  color: white; 
+  position: absolute;
+  top: 12%;
+  left: 38%;
+  width: 24%;
+  height: 400px;
+}
+.btn-primary,input[type=submit]
+{ 
+  background-color: #4a77d4; 
+}
+textarea,input { 
+  width: 100%; 
+  margin-bottom: 10px; 
+  background: rgba(0,0,0,0.3);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+.label{ color: black; }
+::placeholder{ color: white };
+.message{
+  background-color: red;border-radius: 6px;margin-bottom: 10px;padding: 10px;
+}
